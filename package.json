@@ -12,11 +12,7 @@
     "url": "https://github.com/nakamura196/jps-entity-lookup/issues"
   },
   "license": "GPL-3.0",
-  "author": "James Chartrand <jc.chartrand@gmail.com>",
-  "contributors": [
-    "Andrew MacDonald <andrewjames.code@gmail.com>",
-    "Luciano Frizzera <lucaju@gmail.com>"
-  ],
+  "author": "Satoru Nakamura <na.kamura.1263@gmail.com>",
   "main": "src/index.js",
   "repository": {
     "type": "git",

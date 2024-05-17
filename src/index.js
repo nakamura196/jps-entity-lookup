@@ -5,8 +5,8 @@ const findTitle = (queryString) => callJps(getTitleLookupURI(queryString), query
 const findRS = (queryString) => callJps(getRSLookupURI(queryString), queryString, "RS");
 
 const getPersonLookupURI = (queryString) => getEntitySourceURI(queryString, "type:Person");
-const getPlaceLookupURI = (queryString) => getEntitySourceURI(queryString, "type:Agent");
-const getOrganizationLookupURI = (queryString) => getEntitySourceURI(queryString, "type:Place");
+const getPlaceLookupURI = (queryString) => getEntitySourceURI(queryString, "type:Place");
+const getOrganizationLookupURI = (queryString) => getEntitySourceURI(queryString, "type:Agent");
 const getTitleLookupURI = (queryString) => getEntitySourceURI(queryString, "title");
 const getRSLookupURI = (queryString) => getEntitySourceURI(queryString, null);
 
